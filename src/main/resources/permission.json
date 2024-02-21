@@ -1,0 +1,2204 @@
+{
+  "products": [
+    {
+      "roles": [
+        "branch"
+      ],
+      "values": [
+        "IM01SE01",
+        "IM02SE01",
+        "IM03SE01",
+        "IM03SE02",
+        "IM03SE03",
+        "IM03SE04",
+        "IV01SE01",
+        "IV02SE01",
+        "IV03SE01",
+        "ST01SE01",
+        "ST01SE02",
+        "ST02SE01",
+        "ST02SE02",
+        "ST03SE01",
+        "ST03SE02",
+        "ST04SE01",
+        "ST04SE02",
+        "ST05SE01",
+        "ST06SE01",
+        "ST06SE02",
+        "ST11SE01",
+        "ST11SE02",
+        "ST11SE03",
+        "ST11SE04",
+        "ST12SE01",
+        "ST12SE02",
+        "IM01SE02",
+        "ST02SE03",
+        "ST12SE03"
+      ]
+    },
+    {
+      "roles": [
+        "private",
+        "wealth"
+      ],
+      "values": [
+        "IM01SE01",
+        "IM03SE01",
+        "IM03SE02",
+        "IM03SE03",
+        "IM03SE04",
+        "IV01SE01",
+        "IV02SE01",
+        "IV03SE01",
+        "ST01SE01",
+        "ST01SE02",
+        "ST02SE01",
+        "ST02SE02",
+        "ST03SE01",
+        "ST03SE02",
+        "ST04SE01",
+        "ST04SE02",
+        "ST05SE01",
+        "ST06SE01",
+        "ST06SE02",
+        "ST11SE01",
+        "ST11SE02",
+        "ST11SE03",
+        "ST11SE04",
+        "ST12SE01",
+        "ST12SE02",
+        "IM01SE02",
+        "ST02SE03",
+        "ST12SE03"
+      ]
+    },
+    {
+      "roles": [
+        "wealth_specialist"
+      ],
+      "values": [
+        "IM01SE01",
+        "IM03SE01",
+        "IM03SE02",
+        "IM03SE03",
+        "IM03SE04",
+        "IV01SE01",
+        "IV02SE01",
+        "IV03SE01",
+        "ST01SE01",
+        "ST01SE02",
+        "ST02SE01",
+        "ST02SE02",
+        "ST03SE01",
+        "ST03SE02",
+        "ST04SE01",
+        "ST04SE02",
+        "ST05SE01",
+        "ST06SE01",
+        "ST06SE02",
+        "ST11SE01",
+        "ST11SE02",
+        "ST11SE03",
+        "ST11SE04",
+        "ST12SE01",
+        "ST12SE02"
+      ]
+    },
+    {
+      "roles": [
+        "bulk"
+      ],
+      "values": [
+        "ST02SE01",
+        "ST02SE02"
+      ]
+    },
+    {
+      "roles": [
+        "dsa",
+        "chaiyo"
+      ],
+      "values": [
+        "ST02SE02"
+      ]
+    },
+    {
+      "roles": [
+        "ssme"
+      ],
+      "values": [
+        "IM01SE01",
+        "IM03SE01",
+        "IM03SE02",
+        "IM03SE03",
+        "IM03SE04",
+        "ST02SE01",
+        "ST02SE02"
+      ]
+    }
+  ],
+  "approvalConfiguration": [{
+    "roles": [
+      "chaiyo"
+    ],
+    "facial": false,
+    "facialResult": "0",
+    "ciChange": null,
+    "requireSignature": false,
+    "addMobilePhone": false,
+    "specialFeeCode": false,
+    "newCustomer": null,
+    "caOpen": false,
+    "rtftWaive": false,
+    "kycLevel1": "SSC",
+    "kycLevel2": "SSC",
+    "kycLevel3": "SSC"
+  },{
+    "roles": [
+      "chaiyo"
+    ],
+    "facial": true,
+    "facialResult": "0",
+    "ciChange": null,
+    "requireSignature": false,
+    "addMobilePhone": false,
+    "specialFeeCode": false,
+    "newCustomer": null,
+    "caOpen": false,
+    "rtftWaive": false,
+    "kycLevel1": "SSC",
+    "kycLevel2": "SSC",
+    "kycLevel3": "SSC"
+  },{
+    "roles": [
+      "chaiyo"
+    ],
+    "facial": true,
+    "facialResult": "1",
+    "ciChange": null,
+    "requireSignature": false,
+    "addMobilePhone": false,
+    "specialFeeCode": false,
+    "newCustomer": null,
+    "caOpen": false,
+    "rtftWaive": false,
+    "kycLevel1": "SSC",
+    "kycLevel2": "SSC",
+    "kycLevel3": "SSC"
+  },{
+    "roles": [
+      "chaiyo"
+    ],
+    "facial": true,
+    "facialResult": "2",
+    "ciChange": null,
+    "requireSignature": false,
+    "addMobilePhone": false,
+    "specialFeeCode": false,
+    "newCustomer": null,
+    "caOpen": false,
+    "rtftWaive": false,
+    "kycLevel1": "SSC",
+    "kycLevel2": "SSC",
+    "kycLevel3": "SSC"
+  },{
+    "roles": [
+      "chaiyo"
+    ],
+    "facial": true,
+    "facialResult": "3",
+    "ciChange": null,
+    "requireSignature": false,
+    "addMobilePhone": false,
+    "specialFeeCode": false,
+    "newCustomer": null,
+    "caOpen": false,
+    "rtftWaive": false,
+    "kycLevel1": "",
+    "kycLevel2": "SSC",
+    "kycLevel3": "SSC"
+  }, {
+    "roles": [
+      "branch",
+      "private",
+      "wealth",
+      "wealth_specialist"
+    ],
+    "facial": true,
+    "facialResult": "3",
+    "ciChange": null,
+    "requireSignature": false,
+    "addMobilePhone": false,
+    "specialFeeCode": false,
+    "newCustomer": null,
+    "caOpen": false,
+    "rtftWaive": false,
+    "kycLevel1": "",
+    "kycLevel2": "SSC",
+    "kycLevel3": "SSC"
+  },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "3",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": false,
+      "newCustomer": false,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "3",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": false,
+      "newCustomer": true,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "3",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "3",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "3",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "3",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "3",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": true,
+      "kycLevel1": "SC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "3",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "3",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "3",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": true,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "3",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "3",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "3",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": true,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "3",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "3",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "3",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": true,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "3",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "3",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "2",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "2",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "2",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "2",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "2",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "2",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "2",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "2",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "2",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": true,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "2",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "2",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "2",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": true,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "2",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "2",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "2",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": true,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "2",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "2",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "2",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": true,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "2",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "2",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "1",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "1",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "1",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "1",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "1",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": true,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "1",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "1",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": true,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "1",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "1",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": true,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "1",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "1",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": true,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "1",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": false,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": false,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": false,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": false,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": false,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": false,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": false,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": false,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": false,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": true,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": false,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": true,
+      "addMobilePhone": true,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": false,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": true,
+      "addMobilePhone": true,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": false,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": true,
+      "addMobilePhone": true,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": true,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": false,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": true,
+      "addMobilePhone": false,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": false,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": false,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": true,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": false,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": false,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": false,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": true,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": false,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": false,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": true,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": true,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": true,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": false,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": true,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": true,
+      "rtftWaive": true,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    },
+    {
+      "roles": [
+        "bulk",
+        "ssme",
+        "dsa",
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "facial": true,
+      "facialResult": "0",
+      "ciChange": null,
+      "requireSignature": false,
+      "addMobilePhone": false,
+      "specialFeeCode": true,
+      "newCustomer": null,
+      "caOpen": false,
+      "rtftWaive": false,
+      "kycLevel1": "SSC",
+      "kycLevel2": "SSC",
+      "kycLevel3": "SSC"
+    }
+  ],
+  "validate": [
+    {
+      "roles": [
+        "dsa",
+        "chaiyo",
+        "ssme"
+      ],
+      "values": {
+        "mandatory": [
+          "thaiTitle",
+          "nationalityCode",
+          "ocCode",
+          "occupationCode",
+          "maritalStatusCode",
+          "customerTypeCode",
+          "issueDate",
+          "expDate",
+          "addresses",
+          "contactChannels"
+        ],
+        "addresses": [
+          "contactIndicator",
+          "formatCode",
+          "currentAddressFlag",
+          "countryCode",
+          "internalTypeCode",
+          "thaiAddressAmphur",
+          "thaiAddressDistrict",
+          "thaiAddressNumber",
+          "thaiAddressProvince",
+          "zipCode"
+        ]
+      }
+    },
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist",
+        "bulk"
+      ],
+      "values": {
+        "mandatory": [],
+        "addresses": []
+      }
+    }
+  ],
+  "editable": [
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist",
+        "bulk"
+      ],
+      "values": {
+        "basicInformation": [
+          "prefix",
+          "zipCode",
+          "customerType",
+          "occupation",
+          "subOccupation",
+          "businessTypeMajor",
+          "businessTypeMinor",
+          "sourceOfIncome",
+          "actualIncome",
+          "maritalStatus",
+          "manualKeyIn"
+        ],
+        "currentAddress": [
+          "addressOpt",
+          "addressFormat",
+          "thaiAddressName",
+          "addressNo",
+          "addressVillage",
+          "addressFloor",
+          "addressUnit",
+          "addressMoo",
+          "addressTrok",
+          "addressSoi",
+          "addressRoad",
+          "addressDistrict",
+          "addressAmphur",
+          "addressProvince",
+          "addressZip",
+          "addressCountry"
+        ],
+        "officeAddress": [
+          "addressOpt",
+          "addressFormat",
+          "thaiAddressName",
+          "addressNo",
+          "addressVillage",
+          "addressFloor",
+          "addressUnit",
+          "addressMoo",
+          "addressTrok",
+          "addressSoi",
+          "addressRoad",
+          "addressDistrict",
+          "addressAmphur",
+          "addressProvince",
+          "addressZip",
+          "addressCountry"
+        ],
+        "contact": [
+          "mobile",
+          "home",
+          "office",
+          "email",
+          "delete"
+        ]
+      }
+    },
+    {
+      "roles": [
+        "dsa",
+        "ssme"
+      ],
+      "values": {
+        "basicInformation": [
+          "actualIncome"
+        ],
+        "currentAddress": [
+        ],
+        "officeAddress": [
+        ],
+        "contact": [
+          "email"
+        ]
+      }
+    },
+    {
+      "roles": [
+        "chaiyo"
+      ],
+      "values": {
+        "basicInformation": [
+          "prefix",
+          "zipCode",
+          "occupation",
+          "subOccupation",
+          "sourceOfIncome",
+          "actualIncome",
+          "businessTypeMajor",
+          "businessTypeMinor",
+          "maritalStatus"
+        ],
+        "currentAddress": [
+        ],
+        "officeAddress": [
+          "addressOpt",
+          "addressFormat",
+          "thaiAddressName",
+          "addressNo",
+          "addressVillage",
+          "addressFloor",
+          "addressUnit",
+          "addressMoo",
+          "addressTrok",
+          "addressSoi",
+          "addressRoad",
+          "addressDistrict",
+          "addressAmphur",
+          "addressProvince",
+          "addressZip",
+          "addressCountry"
+        ],
+        "contact": [
+          "email"
+        ]
+      }
+    }
+  ],
+  "additionalRoles": [
+    {
+      "roles": [
+        "branch",
+        "private",
+        "wealth",
+        "wealth_specialist"
+      ],
+      "values": [
+        "easy_app_service",
+        "easy_app_product",
+        "service_only",
+        "debit_card_product"
+      ]
+    },
+    {
+      "roles": [
+        "bulk"
+      ],
+      "values": [
+        "easy_app_product",
+        "service_only",
+        "debit_card_product"
+      ]
+    },
+    {
+      "roles": [
+        "dsa"
+      ],
+      "values": [
+        "debit_card_product"
+      ]
+    },
+    {
+      "roles": [
+        "chaiyo"
+      ],
+      "values": [
+        "chaiyo_card_product",
+        "service_only"
+      ]
+    },
+    {
+      "roles": [
+        "ssme"
+      ],
+      "values": [
+        "easy_app_product"
+      ]
+    }
+  ]
+}

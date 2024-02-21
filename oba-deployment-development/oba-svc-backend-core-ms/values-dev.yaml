@@ -1,0 +1,282 @@
+# Default values for scb-common-deployment.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+# Please use your IDE feature to uncomment example usage in this file e.g.,use "ctrl + /" for Visual Studio Code
+################################################################################################
+#
+# Required Parameter
+#
+################################################################################################
+
+########################################## Deployment ##########################################
+replicaCount: 1
+namespace: ssp-dev
+
+descriptionLabel:
+  name: olb-web-customer-authentication
+  instance: olb-backend # InstanceLabel ex. backend
+  projectGroup: ssp # projectGroupLabel ex. fasteasy
+  imageDigest: # imageDigestLabel ex. sha256:a74fe72dd7b0ebc14eea85986f9e9af40575a1cd2c83dd5389bc1795c981f9c8
+  gitCommit: # gitCommitLabel ex. 780155e4f955d5b14d024a51f566071005bcc3d5
+
+image:
+  repository: harbordev-az.se.scb.co.th
+  name: ap2365-lns/olb-web-customer-authentication
+  version: 1.0.0-SNAPSHOT
+  pullPolicy: Always
+
+resources:
+  limits:
+    cpu: 130m
+    memory: 350Mi
+  requests:
+    cpu: 100m
+    memory: 256Mi
+
+livenessProbe:
+  httpGet:
+    path: /actuator/health
+    port: 8080
+    scheme: HTTP
+  initialDelaySeconds: 480
+  periodSeconds: 30
+  timeoutSeconds: 20
+
+readinessProbe:
+  httpGet:
+    path: /actuator/health
+    port: 8080
+    scheme: HTTP
+  initialDelaySeconds: 240
+  periodSeconds: 20
+  timeoutSeconds: 20
+  failureThreshold: 20
+
+nodeSelector:
+  role: apps
+
+########################################### Service ###########################################
+service:
+  type: ClusterIP
+  port: 8080
+  targetPort: 8080
+  protocol: TCP
+  name: http
+  annotations: {}
+
+######################################### ConfigMap ##########################################
+configmap:
+  enabled: true
+  mountPath: /apps/config
+  propertyFiles:
+    application.yml: |
+      server:
+        ssl:
+          enabled: 'false'
+
+
+######################################### Ingress #############################################
+ingress:
+  enabled: false
+#  annotations:
+#    kubernetes.io/ingress.class: nginx-internal
+#    kubernetes.io/tls-acme: "true"
+#    nginx.ingress.kubernetes.io/rewrite-target: /$2
+#  host:
+#  TLSSecretName: se-scb-tls-cert
+#  customPathConfigEnabled: true
+#  customPathConfig:
+#    - path: /lns-authentication-service(/|$)(.*)
+#      pathType: Prefix
+#      backend:
+#        service:
+#          name: lns-authentication-service
+#          port:
+#            number: 8080
+
+######################################### serviceAccount #######################################
+serviceAccount:
+  enabled: true
+  annotations:
+    #eks.amazonaws.com/role-arn: "arn:aws:iam::652707267819:role/SCBProjectNSSEC2Role"
+
+
+################################################################################################
+#
+# Optional Parameter
+#
+################################################################################################
+#  - name: JAVA_OPTS_PARAM
+#    value: "-Djava.security.egd=file:/dev/./urandom -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=25 -XX:+DisableExplicitGC -XX:MaxGCPauseMillis=10 -Xmx512m"
+######################################### Deployment ###########################################
+env:
+  - name: spring.profiles.active
+    value: "dev"
+  - name: AZ_CLIENT_ID
+    value: "6b8467c7-c338-4f8d-adee-33ea894cd0ea"
+  - name: AZ_VAULT_URL
+    value: "https://scblnsseaakv001dev.vault.azure.net/"
+  - name: AZ_TENANT_ID
+    value: "45202dee-4088-4e8c-8ebd-c01f56740e8f"
+  - name: MY_NODE_NAME
+    valueFrom:
+      fieldRef:
+        fieldPath: spec.nodeName
+  - name: MY_NODE_IP
+    valueFrom:
+      fieldRef:
+        fieldPath: status.hostIP
+
+command: # ["/bin/sh"]
+args: # ["-c", "while true; do echo hello; sleep 10;done"]
+
+podLabels:
+  aadpodidbinding: SSPAppRole_DEV
+
+podAnnotations:
+  prometheus.io/insecure_skip_verify: 'true'
+  prometheus.io/path: '/actuator/prometheus'
+  prometheus.io/port: '8080'
+  prometheus.io/scheme: 'http'
+  prometheus.io/scrape: 'true'
+
+lifecycle:
+  # postStart:
+  #   exec:
+  #     command: ["/bin/sh", "-c", "sleep 30s"]
+  # preStop:
+  #   exec:
+  #     command: ["/bin/sh", "-c","sleep 30s"]
+
+initContainers:
+# - name: init-myservice
+#   image: harbordev.se.scb.co.th/library/busybox:1.28
+#   command: ['sh', '-c', 'until nslookup myservice; do echo waiting for myservice; sleep 2; done;']
+#   resources:
+#     limits:
+#       cpu: 50m
+#       memory: 64Mi
+#     requests:
+#       cpu: 50m
+#       memory: 64Mi
+
+startupProbe: 
+  # httpGet:
+  #   path: /actuator/health
+  #   port: 8080
+  # initialDelaySeconds: 5
+  # periodSeconds: 5
+  # failureThreshold: 20
+  # timeoutSeconds: 5
+
+
+### Interactive Application Security Testing e.g.seeker ###
+IAST:
+  enabled: false
+  image_version: harbordev.se.scb.co.th/library/iast/scb-java-seeker:v1.0.0
+
+### Hashicorp Vault ###
+vaultCertificate:
+  enabled: false  
+  image_version: harbordev.se.scb.co.th/library/vault/certificate:v1.0.0-java8
+  mountPath: # /var/run/secrets/java.io/keystores/
+  keyStoreName: keystore.jks
+  trustStoreName: cacerts
+  storepass: changeit
+
+volumes:
+# - name: my-volume
+#   emptyDir: {}
+#  - name: application-config
+#    configMap:
+#      name: cbdcbe-wallet-transfer
+
+volumeMounts:
+# - name: my-volume
+#   mountPath: /data
+#  - name: application-config
+#    mountPath: /apps/config/application-dev.yml
+
+
+affinity:
+  customConfigEnabled: false
+  customConfig:
+  #   podAntiAffinity:
+  #     requiredDuringSchedulingIgnoredDuringExecution:
+  #     - labelSelector:
+  #         matchExpressions:
+  #         - key: "key1"
+  #           operator: In
+  #           values:
+  #           - "value1"
+  #       topologyKey: "kubernetes.io/hostname"
+
+strategy:
+  # type: RollingUpdate
+  # rollingUpdate:
+  #   maxUnavailable: 25%
+  #   maxSurge: 1
+
+terminationGracePeriodSeconds: # 30
+
+securityContext:
+  # capabilities:
+  #   drop:
+  #   - ALL
+  # readOnlyRootFilesystem: true
+  # runAsNonRoot: true
+  # runAsUser: 1000
+  # allowPrivilegeEscalation: false
+
+######################################### PersistentVolumeClaim #########################################
+PersistentVolumeClaim:
+  enabled: false
+  mountPath: # /apps/mydata
+  spec: 
+    # accessModes:
+    #   - ReadWriteOnce
+    # volumeMode: Filesystem
+    # resources:
+    #   requests:
+    #     storage: 8Gi
+    # storageClassName: slow
+    # selector:
+    #   matchLabels:
+    #     release: "stable"
+    #   matchExpressions:
+    #     - {key: environment, operator: In, values: [dev]}
+
+######################################### Horizontal Pod Autoscaler #########################################
+hpa:
+  enabled: false
+  maxReplicas: # 10
+  minReplicas: # 2
+  metrics:
+  # - type: Resource
+  #   resource:
+  #     name: cpu
+  #     target:
+  #       type: Utilization
+  #       averageUtilization: 90
+  # - type: Resource
+  #   resource:
+  #     name: memory
+  #     target:
+  #       type: Utilization
+  #       averageUtilization: 90
+
+######################################### PodDisruptionBudget #########################################
+pdb:
+  enabled: false
+  spec:
+    # maxUnavailable: 1
+    # minAvailable: 1
+
+################################################# ROLE ################################################
+role:
+  enabled: false
+  rules:
+    - apiGroups: ['']
+      resources: ['configmaps','services','pods','endpoints']
+      verbs: ['get', 'list','watch']
+    

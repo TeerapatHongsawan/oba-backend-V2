@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<settings>
+    <mirrors>
+        <mirror>
+            <id>scb-nexus</id>
+            <name>SCB Nexus Maven Mirror</name>
+            <url>http://artfactop.se.scb.co.th:8081/repository/maven-public/</url>
+            <mirrorOf>*</mirrorOf>
+        </mirror>
+    </mirrors>
+    <pluginGroups>
+        <pluginGroup>org.sonarsource.scanner.maven</pluginGroup>
+    </pluginGroups>
+    <profiles>
+        <profile>
+            <id>scb.maven.profile</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <repositories>
+                <repository>
+                    <id>scb.repo.snapshot</id>
+                    <name>SCB DevOps Snapshot Repository</name>
+                    <url>http://artfactop.se.scb.co.th:8081/repository/maven-snapshots/</url>
+                    <releases>
+                        <enabled>false</enabled>
+                    </releases>
+                    <snapshots>
+                        <updatePolicy>always</updatePolicy>
+                        <enabled>true</enabled>
+                    </snapshots>
+                </repository>
+                <repository>
+                    <id>scb.repo.releases</id>
+                    <name>SCB DevOps Releases Repository</name>
+                    <url>http://artfactop.se.scb.co.th:8081/repository/maven-releases/</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </repository>
+            </repositories>
+        </profile>
+    </profiles>
+</settings>
