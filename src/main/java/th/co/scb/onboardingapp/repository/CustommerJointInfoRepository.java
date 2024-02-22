@@ -9,5 +9,5 @@ import java.util.List;
 
 @Repository
 public interface CustommerJointInfoRepository extends JpaRepository<MasterJointTypeEntity,String> {
-    List<MasterJointTypeEntity> findByStatus(String status);
+    List<MasterJointTypeEntity> findAllByStatus(String status);
 }

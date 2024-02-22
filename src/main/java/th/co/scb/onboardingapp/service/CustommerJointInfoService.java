@@ -1,9 +1,7 @@
 package th.co.scb.onboardingapp.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.SpringApplication;
 import org.springframework.stereotype.Service;
-import th.co.scb.onboardingapp.ObaBackendCoreMsApplication;
 import th.co.scb.onboardingapp.helper.MappingHelper;
 import th.co.scb.onboardingapp.model.MasterJointType;
 import th.co.scb.onboardingapp.model.entity.MasterJointTypeEntity;
@@ -23,7 +21,7 @@ public class CustommerJointInfoService {
     MappingHelper mappingHelper;
 
     public List<MasterJointType> JointInfo() {
-        List<MasterJointTypeEntity> list = custommerJointInfoRepository.findByStatus("Y");
+        List<MasterJointTypeEntity> list = custommerJointInfoRepository.findAllByStatus("Y");
         return mappingHelper.mapAsList(list, MasterJointType.class);
     }
 }
