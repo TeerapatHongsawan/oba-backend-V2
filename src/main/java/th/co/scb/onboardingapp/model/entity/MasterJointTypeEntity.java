@@ -22,4 +22,7 @@ public class MasterJointTypeEntity {
 
     @Column(name = "DESCRIPTION_EN")
     private String descriptionEn;
+
+    @Column(name = "status")
+    private String status;
 }
