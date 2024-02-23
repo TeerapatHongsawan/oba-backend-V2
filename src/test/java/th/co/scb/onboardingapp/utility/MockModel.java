@@ -590,4 +590,16 @@ public class MockModel {
         return customerInfo;
     }
 
+    public List<MasterJointType> getMasterJointType() {
+        List<MasterJointType> expect = new ArrayList<>();
+        MasterJointType expectItem = new MasterJointType();
+        expectItem.setCode("JointType");
+        expectItem.setValue("and");
+        expectItem.setDescriptionTh("และ");
+        expectItem.setDescriptionEn("And");
+        expect.add(expectItem);
+        expect.add(new MasterJointType());
+        return expect;
+    }
+
 }
